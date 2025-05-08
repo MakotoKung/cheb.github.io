@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Minecraftia', sans-serif;
+  }
+  @font-face{
+    font-family: Minecraft;
+    src:url('fonts/Delicatus-e9OLl.ttf');
+  }
+  @font-face {
+    font-family: Logo;
+    src: url('fonts/Minecrafter-MA3Dw.ttf');
+  }
+  
+  .background {
+    background: url('IMG_0708.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    z-index: 9999;
+  }
+  
+  .logo {
+    position: fixed;
+    top: 8%;
+    left: 37%;
+    
+    text-align: center;
+    font-family: Logo;
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 3px 3px 0px #000;
+  }
+  
+  .menu {
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    gap: 10px;
+  }
+  
+  .menu button {
+    background: rgb(88, 88, 88);
+    color: white;
+    font-size: 34px;
+    font-family: Minecraft;
+    padding: 10px 0;
+    width: 300px; /* กำหนดความกว้างเท่ากัน */
+    border: 4px solid gray;
+    box-shadow: 3px 4px #000;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+  }
+  .menu button:hover{
+    background: #208305;
+  }
+  
+  .character-section {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    text-align: center;
+    zoom: 175%;
+  }
+  
+  .character-section .character-name {
+    position: absolute;
+    top: 180px;
+    left: 26%;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 0px #000;
+  }
+  
+  .bottom-buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    bottom: 20px;
+    left: 50px;
+    background: rgb(88, 88, 88);
+    border-radius: 4px;
+    transition: border 0.3s;
+    align-items: center;
+    
+    
+  }
+  
+  .bottom-buttons .potion-icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    
+    text-align: center;
+    z-index: 2;
+    
+  }
+  .bottom-buttons:hover {
+      background-color: #208305; /* กรอบเขียวตอน hover */
+    }
+.bottom-buttons2:hover {
+        background-color: #208305; /* กรอบเขียวตอน hover */
+    }
+
+.bottom-buttons2 {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        bottom: 20px;
+        left: 180px;
+        background: rgb(88, 88, 88);
+        border-radius: 4px;
+        transition: border 0.3s;
+        align-items: center;
+        
+        
+}
+    
+ .Music-icon{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    z-index: 2;
+    opacity: 100%;
+}
+.hiden{ 
+  opacity: 0%;
+}
+  
